@@ -1,0 +1,163 @@
+/* FONTS */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap'); 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Gaegu:wght@300;400;700&display=swap'); 
+
+/* remember to use  font-family: "Abel", sans-serif;
+or font-family: "Gaegu", sans-serif; */
+
+
+/*ANIMATION*/ 
+
+@keyframes glow{
+
+}
+
+
+/* UNIVERSAL */
+
+body { 
+    background-color:rgb(30, 33, 36); 
+    margin:0 auto;
+} 
+
+header { 
+    text-align:center;
+    margin-top:10%;
+    border-color:3px solid rgb(185, 163, 227);
+    background-color:rgb(100, 65, 165);
+} 
+ 
+nav {
+    background-color:rgb(30, 33, 36); 
+    border:3px solid  rgb(185, 163, 227); 
+    position: fixed;
+    max-width:25%;
+    padding:3%;
+    height:100vh;
+    top:0px;
+    left:0px; 
+    font-family:"Abel",sans-serif; 
+    border-radius:10px;
+}
+
+main{
+    background-color:rgb(54, 57, 62);
+    max-width:60%;
+    margin-left:30%; 
+    display:flex;
+    flex-direction: column; 
+    justify-content:space-between;
+} 
+
+footer {
+    background-color:rgb(100, 65, 165);
+    font-family:"Abel", sans-serif; 
+    padding:1%;
+}
+
+section {
+    margin:5%;
+    text-align: center;
+    font-family:"Gaegu",sans-serif;
+    border:3px solid rgb(185, 163, 227); 
+    padding:3%;
+    background-color:rgb(30, 33, 36);
+    border-radius:10px;
+    
+}
+/* SPECIFIC CODE */
+
+img { 
+    background-color:rgb(185, 163, 227);
+    border:3px solid rgb(100, 65, 165); 
+    border-radius:10px;
+} 
+
+h1 {
+    color: rgb(185, 163, 227);
+    text-align:center; 
+} 
+
+p {
+color:rgb(185, 163, 227);
+font-size: 25px; 
+background-color:rgb(54, 57, 62);
+border:3px solid rgb(185, 163, 227); 
+border-radius:10px;
+}
+
+
+a {
+    text-decoration:none;
+} 
+
+footer h1 { 
+    text-align:center; 
+    width: 15%; 
+    background-color:rgb(54, 57, 62);
+    margin-left:50%;
+    padding:3%; 
+}
+
+a img{
+    border-radius:10px;
+    max-width:85%;
+}
+
+a img:hover {
+background-color:rgb(100, 65, 165);
+animation-duration:3s; 
+
+
+} 
+
+.friends{
+    border:2px solid rgb(185, 163, 227);
+    border-radius:10px;
+} 
+
+
+
+section img{ 
+    border:2px solid rgb(100, 65, 165);
+}
+
+section img:hover {
+    background-color:rgb(100, 65, 165);
+    transform:scale(1,1.05);
+    
+} 
+
+header img {
+    opacity:0.75;
+    margin:1%; 
+    padding:5px;
+    background-size:cover;
+
+} 
+
+header h1 {
+    font-family: "Abel", sans-serif; 
+    text-align:center; 
+    border-color:rgb(54, 57, 62);
+    border:3px solid rgb(185, 163, 227); 
+    font-size:40px; 
+    border:none; 
+}
+
+#banner {
+    margin-top: 0;
+    width: 100% 
+}
+
+#banner img {
+    width: 75%; 
+   margin-left: 20%; 
+}
+
+#banner h1 {
+    margin-left: 20%;
+}
