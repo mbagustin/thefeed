@@ -34,7 +34,8 @@ nav {
     top:0px;
     left:0px; 
     font-family:"Abel",sans-serif; 
-    border-radius:10px;
+    border-radius:10px; 
+    Max-width:60%;
 }
 
 main{
