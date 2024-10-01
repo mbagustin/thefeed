@@ -9,12 +9,6 @@
 or font-family: "Gaegu", sans-serif; */
 
 
-/*ANIMATION*/ 
-
-@keyframes glow{
-
-}
-
 
 /* UNIVERSAL */
 
@@ -116,7 +110,8 @@ animation-duration:3s;
 
 .friends{
     border:2px solid rgb(185, 163, 227);
-    border-radius:10px;
+    border-radius:10px; 
+    background-color:rgb(54, 57, 62);
 } 
 
 
@@ -160,4 +155,7 @@ header h1 {
 
 #banner h1 {
     margin-left: 20%;
+} 
+nav img {
+    margin-left:5%;
 }
